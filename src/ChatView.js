@@ -13,6 +13,7 @@ function ChatView() {
     if (!selectedImage) {
       exit();
     }
+    // eslint-disable-next-line
   }, [selectedImage]);
 
   const exit = () => {
